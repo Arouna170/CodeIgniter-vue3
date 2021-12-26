@@ -1,0 +1,39 @@
+{
+  "name": "codeigniter",
+  "version": "1.0.0",
+  "description": "CodeIgniter 4 + vue 3",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arouna170/CodeIgniter-vue3.git"
+  },
+  "keywords": [
+    "vue",
+    "3",
+    "codeigniter",
+    "4"
+  ],
+  "author": "arouna hafiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arouna170/CodeIgniter-vue3/issues"
+  },
+  "homepage": "https://github.com/Arouna170/CodeIgniter-vue3#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.26",
+    "vue": "^3.2.26",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^4.0.12"
+  }
+}
